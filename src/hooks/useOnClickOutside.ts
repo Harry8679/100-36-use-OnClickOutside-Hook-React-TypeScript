@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { RefObject } from 'react';
+import type { RefObject } from 'react';
 import { useEscapeKey } from './useEscapeKey';
 
 interface UseOnClickOutsideOptions {
